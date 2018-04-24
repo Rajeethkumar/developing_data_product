@@ -1,0 +1,41 @@
+---
+title: "Shiny app explanation"
+author: "Rajeeth"
+date: "April, 2018"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Agenda
+
+- Introduction
+- Buttons and input fields
+- Differnet tab panels
+- Conclusion
+
+## Introuction
+
+1. This presentation gives explanation for the courrsera developing data product assignment,here we will see ow the shiny app been designed.  
+2. We are using mtcars datasets, objective of application to explore relationship between mpg and other intividual variabls.
+
+## Plots
+
+1. We are having two panels for Boxplot and reg.model inside the panel Shiny app.  
+2. These boxplot express counts of cars against each vaiable. 
+3. Reg.model tab shows the plot for each reg.model,where in  each model mpg is outcome and predictor would be selected in select input box.
+
+## Buttons
+ *Buttons and input fields used*
+ 
+ 1. Selectinput gives variable to predict.
+ 2. Checkbox for show outline.
+ 3. differnent tab panels for plots as well as explaining product.
+ 
+ 
+##  Concluion
+
+ This Presentation and shiny app been implemented for coursera Developing data product assignment. For further detail please visit the application location.<https://rajeeth-shiny-deployments.shinyapps.io/web_shiny/>
+
